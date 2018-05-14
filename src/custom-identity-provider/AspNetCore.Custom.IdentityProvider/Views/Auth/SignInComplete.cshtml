@@ -1,0 +1,18 @@
+﻿@model AspNetCore.Custom.IdentityProvider.Models.SignInCompleteModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            document.forms[0].submit();
+        }
+    </script>
+</head>
+<body>
+    <form action="@Model.RedirectUri" method="POST">
+        <input type="hidden" asp-for="Payload" />
+    </form>
+</body>
+</html>

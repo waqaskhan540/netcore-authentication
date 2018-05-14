@@ -1,0 +1,16 @@
+﻿@model List<string>;
+
+
+@{
+    ViewData["Title"] = "UserInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Here are your Claims</h2>
+<ul>
+    @foreach (var claim in Model)
+    {
+        <li> @claim</li>
+
+    }
+</ul>

@@ -1,0 +1,25 @@
+﻿@model AspNetCore.Custom.IdentityProvider.Models.SignInModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div asp-validation-summary="All"></div>
+    <form asp-controllers="Auth" asp-action="SignIn" method="POST">
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div>
+            <label>Username: </label>
+            <input type="text" asp-for="Username" autofocus />
+        </div>
+        <div>
+            <label>Password: </label>
+            <input type="password" asp-for="Password" />
+        </div>
+        <div>
+            <input type="submit" value="Sign In" />
+        </div>
+    </form>
+</body>
+</html>
