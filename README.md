@@ -5,7 +5,7 @@ included in the demos for further illustration.
 
 #### The samples include demos for following authentication methods.
 
-1. Local Login
+1. [Local Login] (src/local-logins/AspNetCore.Auth.LocalLogin/)
 2. Azure Active Directory Authentication
 3. Social Logins
 4. JWT Bearer Authentication
