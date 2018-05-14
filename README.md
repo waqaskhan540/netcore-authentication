@@ -21,4 +21,8 @@ included in the demos for further illustration.
 1. Visual Studio 2017 
 2. .NET Core 2.0 
 
+#### Insperation & Credits
+I have written the code following a course on Pluralsight.
+>[ASP.NET CORE Identity Management Playbook](https://app.pluralsight.com/library/courses/aspnet-core-identity-management-playbook)
+
    
